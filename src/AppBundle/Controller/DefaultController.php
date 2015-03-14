@@ -224,6 +224,13 @@ public function korowodyAction()
     /*
      * W
      */
+     /**
+     * @Route("/Woda.html", name="Woda")
+     */
+    public function WodaAction()
+    {
+        return $this->render('default/Woda.html.twig');
+    }
 
     /*
      * X
